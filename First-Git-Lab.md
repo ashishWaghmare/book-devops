@@ -2,6 +2,7 @@ Assignment –Lab
 # Setup your info
     git config --global user.name "My Name"
     git config --global user.email my_name@abc.com
+    git config --global http.proxy http://your_ip:808
 
 # Create a local git repository
     mkdir mygitrepo
@@ -9,7 +10,7 @@ Assignment –Lab
     git init
     
 # Commit the initial code
-    cat "First Line">> first.html
+    echo "First Line">> first.html
     git add first.html
     git commit -m "first commit"
     
@@ -28,7 +29,7 @@ Assignment –Lab
 ## Create branch
     git branch mybranch
     git checkout mybranch
-    cat "Second Line" >> first.html
+    echo "Second Line" >> first.html
     git add first.html
     git commit -m "first commit"
 ## Merge branch
