@@ -54,6 +54,8 @@ Look at Class diagram
 
 1. Create Owner.java Class 
 
+	class OwnerResource {}
+	
 1. Add below attributes
 
     private String firstName;
@@ -64,44 +66,60 @@ Look at Class diagram
  
 1. Annotate with JPA annotations
 
-@Entity
-@Table(name = "owners")
-public class Owner {
-    @Column(name = "first_name")
-    @NotEmpty
-    private String firstName;
+		@Entity
+		@Table(name = "owners")
+		public class Owner {
+		    @Column(name = "first_name")
+		    @NotEmpty
+		    private String firstName;
 
-    @Column(name = "last_name")
-    @NotEmpty
-    private String lastName;
+		    @Column(name = "last_name")
+		    @NotEmpty
+		    private String lastName;
 
-    @Column(name = "address")
-    @NotEmpty
-    private String address;
+		    @Column(name = "address")
+		    @NotEmpty
+		    private String address;
 
-    @Column(name = "city")
-    @NotEmpty
-    private String city;
+		    @Column(name = "city")
+		    @NotEmpty
+		    private String city;
 
-    @Column(name = "telephone")
-    @NotEmpty
-    @Digits(fraction = 0, integer = 10)
-    private String telephone;
-}
+		    @Column(name = "telephone")
+		    @NotEmpty
+		    @Digits(fraction = 0, integer = 10)
+		    private String telephone;
+		}
 
 1. Create Getters and Setters
 
 1. Create ToString
 
+1. Add identify column
+		    @Id
+    		    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    		    private Integer id;
+
 Note: For now ignore Pets class
+
+1. Change Port if jenkins too running
+		
+
+# In Memory Database
+
+		<dependency>
+		    <groupId>com.h2database</groupId>
+		    <artifactId>h2</artifactId>
+		    <scope>runtime</scope>
+		</dependency>
 
 # DAO model
 
 create class OwnerRepository by extending
 
 
-import org.springframework.data.jpa.repository.JpaRepository;
-    public interface OwnerRepository extends    JpaRepository<Owner, Integer> { } 
+	import org.springframework.data.jpa.repository.JpaRepository;
+	    public interface OwnerRepository extends    JpaRepository<Owner, Integer> { } 
 
 
 # Create REST service
@@ -129,18 +147,18 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 1. create Owner methods
 
-    @RequestMapping("/owners")
-    @RestController
-        class OwnerResource {
-            OwnerRepository ownerRepository
+	    @RequestMapping("/owners")
+	    @RestController
+		class OwnerResource {
+		    OwnerRepository ownerRepository
 
-            @PostMapping
-            @ResponseStatus(HttpStatus.CREATED)
-            public Owner createOwner(@Valid @RequestBody Owner owner) {
-                return ownerRepository.save(owner);
-            }
+		    @PostMapping
+		    @ResponseStatus(HttpStatus.CREATED)
+		    public Owner createOwner(@Valid @RequestBody Owner owner) {
+			return ownerRepository.save(owner);
+		    }
 
-        }
+		}
 
 
 1. Add find by id method as below
