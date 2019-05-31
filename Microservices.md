@@ -3,6 +3,7 @@ Open browser and open URL
 https://start.spring.io/
 
 Make sure you have settings as mentioned below
+![Drag Racing](images/microservice-start.png)
 [![Start Page](image "tooltip")](images/microservice-start.png)
 
 # Lab Machine should hava
