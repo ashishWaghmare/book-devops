@@ -1,0 +1,7 @@
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/package-info.java
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/package-info.java
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/package-info.java
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java
+/home/sushma/training/spring-boot/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/SpringPetclinicCustomersServiceApplication.java
