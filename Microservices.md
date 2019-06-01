@@ -96,9 +96,10 @@ Look at Class diagram
 1. Create ToString
 
 1. Add identify column
-		    @Id
-    		    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    		    private Integer id;
+		
+		@Id
+    		@GeneratedValue(strategy = GenerationType.IDENTITY)
+		private Integer id;
 
 Note: For now ignore Pets class
 
@@ -170,14 +171,45 @@ create class OwnerRepository by extending
 
 # Injecting Dummy Data for Start
 
-We will use command line class to inject Temproary data
+We will use command line class to inject Temproary data in Main class
+
+	@Bean
+	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+		return new CommandLineRunner() {
+			@Override
+			public void run(String... args) throws Exception {
+				System.out.println("Hello World");
+				Owner owner1 = new Owner();
+				owner1.setFirstName("Ashish");
+				owner1.setLastName("Waghmare");
+				owner1.setAddress("baner");
+				owner1.setCity("Pune");
+				owner1.setTelephone("2123");
+				repo.save(owner1);
+				Owner owner2 = new Owner();
+				owner2.setFirstName("Student");
+				owner2.setLastName("CDAC");
+				owner2.setAddress("sproad");
+				owner2.setTelephone("2125");
+				owner2.setCity("Pune");
+				repo.save(owner2);
+			}
+		};
+	}
+
 # Testing MicroService
 
-Open  below in browser
+Open  below in browser to see all Owners
 
 http://localhost:8080/owners
 
 http://localhost:8080/owners/1
 
 http://localhost:8080/owners/2
+
+# Further Studies
+
+Look at source code to get more details
+
+https://github.com/apptitude-in/spring-petclinic-microservices
 
