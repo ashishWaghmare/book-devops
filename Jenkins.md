@@ -31,7 +31,12 @@ Once complete click "OK"
 
 Now under section of Pipeline. Click on Try sample and create Job
 
-![Jobconfig](images/jen-pipeline.png)
+![Jobconfig](images/jen-script.png)
+
+Finishing insert should look like below
+
+![Finish](images/jen-completed.png)
+
 
 ### Create a maven project for TestNG
 
@@ -44,5 +49,3 @@ Now under section of Pipeline. Click on Try sample and create Job
 ### Add TestNG test suite in the project
 ### Integrate it with Jenkins
 
-## Modify the micro Service code in pom.xml
-		
