@@ -15,7 +15,7 @@ Disable Hyper V.
 
 Launch Quickstart Terminal as shown in below screen
 
-![Launch](images/dec-eclipse.PNG)
+![Launch](images/dck-eclipse.PNG)
 
 
 Type command 
@@ -24,7 +24,7 @@ Type command
     
 # Docker
 
-![Launch](images/dec-fin.PNG)
+![Launch](images/dck-fin.PNG)
 
 # Microservice and Docker 
 
