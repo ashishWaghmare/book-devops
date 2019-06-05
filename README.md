@@ -41,7 +41,7 @@ Lecture:
 1. The Linux File System
 1. Working with Files and Directories
 ### Getting Started to Linux
- Revision of basic Commands
+1. Revision of basic Commands
 Assignment –Lab:
 Getting Acquainted with the Linux Environment
 Use various commands in Linux system.
@@ -91,86 +91,85 @@ Assignment –Lab:
 Review Exercises
 Session 5
 Lecture:
-Linux shell programming (Contd.)
- The loop control structure
-o The while, until and for loop structures
-o The break and continue statements
- Directory stacks manipulation\Job control, history and processes
- Built-in functions
-### Session 6: (Operating System Architecture)
+### Linux shell programming (Cotd.)
+1. The l1.1.p cotr1.l structure
+1. The while, until and for l1.1.p structures
+1. The break and cotinue statements
+1. Directory stacks manipulation 1.b cotr1.l, history and processes
+1. Built-in functios
+### Operating System Architecture
 Lecture:
- Introduction to Operating Systems and Terminology
- Kernel Components and Non-kernel Components
- User-space vs Kernel-space and User-mode vs Kernel-mode
- Types of Kernel
- Interrupt Management and System calls
-### Session 7: (Process management, Scheduling Policies)
+1. Introductio to operating Systems and Terminology
+1. Kernel Compoents and No-kernel Compoents
+1. User-space vs Kernel-space and User-mode vs Kernel-mode
+1. Types of Kernel
+1. Interrupt Management and System calls
+### Process management, Scheduling P1.licies
+1. Process Management 
+1. Process Scheduling / CPU Scheduling: Preemptive vs Non-preemptive 
+1. Different types of Scheduling Policies/Algorithms – FCFS, RR, PRIO, FAIR-SHARE, EDF. 
+1. Preemptive Kernel vs Non-preemptive Kernel 
+1. Introduction to Threads - User-level vs Kernel-level(many-to-one vs one-to-one) 
+1. Advantages of Multi-threading and some Real-world examples.
+### Inter-Process Communication
 Lecture:
- Process Management
- Process Scheduling / CPU Scheduling: Preemptive vs Non-preemptive
- Different types of Scheduling Policies/Algorithms – FCFS, RR, PRIO, FAIR-SHARE, EDF.
- Preemptive Kernel vs Non-preemptive Kernel
- Introduction to Threads - User-level vs Kernel-level(many-to-one vs one-to-one)
- Advantages of Multi-threading and some Real-world examples.
-### Session 8: (Inter-Process Communication)
-Lecture:
- Introduction to Inter-process Communication Mechanisms ( IPCs ) - for Processes and Threads
- IPCs - Synchronization vs Data-exchange
- IPCs - Semaphores and Mutex
- Message-queues and Shared-memory (Related to VM)
- Producer Consumer problem
- Dead-lock vs Starvation
-Session 9: (Memory Management)
+1. Intr1.ductio t1. Inter-process C1.mmunicatio Mechanisms ( IPCs ) - for Processes and Threads
+1. IPCs - Synchroizatio vs Data-exchange
+1. IPCs - Semaphores and Mutex
+1. Message-queues and Shared-memory (Related to VM)
+1. Pr1.ducer Cosumer pr1.blem
+1. Dead-lock vs Starvation
+Sessio 9: (Memory Management)
 Lecture:
 ### Memory Management
- Hardware Techniques available for Memory-management (Segmentation/Paging)
-Session 10: (Virtual Memory Techniques)
+1. Hardware Techniques available for Memory-management (Segmentatio/Paging)
+Sessio 10: (Virtual Memory Techniques)
 Lecture:
- Software Techniques built on top of H/W Techniques (Virtual-memory Techniques)
- Page Replacement Algorithms
+1. Software Techniques built o t1.p of H/W Techniques (Virtual-memory Techniques)
+1. Page Replacement Algorithms
 
-### Session 11: (File System Management)
+### File System Management
 Lecture:
- File System Organization - Physical File System Organization Techniques
- (Use Linux File System - ext2/ext3 for Illustration)
- Virtual File System Manager
+1. File System organizatio - Physical File System organizatio Techniques
+1. (Use Linux File System - ext2/ext3 for Illustratio)
+1. Virtual File System Manager
 File System Management - File System Manager in the Kernel
- Disk structure and Disk Scheduling Algorithms
+1. Disk structure and Disk Scheduling Algorithms
 
-### Session 12: (Process and signals)
+### Process and signals
 Lecture
-o Process Creation
-o fork, waitpid and exec System call
-o Basic Concepts of the signals
-o Generating and Handling Signals
+1. Process Creatio
+1. fork, waitpid and exec System call
+1. Basic Cocepts of the signals
+1. Generating and Handling Signals
 Assignment – Lab:
 
-o Assignment based on Process creation
-o Assignments Based on the Signals
-Session 13: (Inter–Process Communication, Semaphores)
+1. Assignment based o Process creatio
+1. Assignments Based o the Signals
+Sessio 13: (Inter–Process C1.mmunicatio, Semaphores)
 Lecture
-o Synchronization with Semaphore
-o Shared Memory Concept and Implementation
-o Message queues
+1. Synchroizatio with Semaphore
+1. Shared Memory Cocept and Implementatio
+1. Message queues
 Assignment –Lab:
 
-o Assignment based on implementation Semaphore
-o Assignment based on the implementation of the shared memory
+1. Assignment based o implementatio Semaphore
+1. Assignment based o the implementatio of the shared memory
 
-Session 14: (File handling)
+### File handling
 Lecture
-o Working with Files and Directories
-o Hard and soft links
-o Pipes and FIFOs implementation
+1. Working with Files and Directories
+1. Hard and soft links
+1. Pipes and FIF1.s implementatio
 Assignment –Lab:
 
-o Assignment based on the implementation of the pipes, fifos
+1. Assignment based o the implementatio of the pipes, fif1.s
 
-Session 15: (POSIX Threads and Mutex)
+### POSIX Threads and Mutex
 Lecture
-o Thread Management
-o Thread Safety
-o Thread Synchronization with Mutex
+1. Thread Management
+1. Thread Safety
+1. Thread Synchroizatio with Mutex
 Assignment –Lab:
 
-o Assignment based on the Implementation of the threads and Mutex
+1. Assignment based o the Implementation of the threads and Mutex
