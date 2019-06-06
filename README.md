@@ -5,8 +5,11 @@ https://www.cdac.in/index.aspx?id=DAC&courseid=0#
 ## Advanced Software Development Methodologies
 
 ### SE
-1. Software Development Life Cycle ,Design and Architectural Engineering,Object Oriented Analysis and Design,
-1. Introduction to Agile development model,Introduction to Atlassian Jira,
+1. Software Development Life Cycle 
+1. Design and Architectural Engineering 
+1. Object Oriented Analysis and Design,
+1. Introduction to Agile development model
+1. Introduction to Atlassian Jira,
 
 ### DevOps
 Introduction to DevOps,
@@ -99,7 +102,7 @@ Lecture:
 1. Built-in functios
 ### Operating System Architecture
 Lecture:
-1. Introductio to operating Systems and Terminology
+1. Introduction to operating Systems and Terminology
 1. Kernel Compoents and No-kernel Compoents
 1. User-space vs Kernel-space and User-mode vs Kernel-mode
 1. Types of Kernel
