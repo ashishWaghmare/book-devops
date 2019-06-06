@@ -14,7 +14,7 @@ It mostly produces below artificats
 
 ### Low Level Design
 
-## Algorithmically oriented languages /Functional
+## Algorithmically/Functional Oriented
 
 ## Object Oriented
 
