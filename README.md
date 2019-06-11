@@ -4,7 +4,7 @@ https://www.cdac.in/index.aspx?id=DAC&courseid=0#
 
 ## Advanced Software Development Methodologies
 
-### [SE](SoftwareE%20ngineering/README.md)
+### [SE](Software%20Engineering/README.md)
 1. Software Development Life Cycle 
 1. Design and Architectural Engineering 
 1. Object Oriented Analysis and Design,
@@ -28,7 +28,7 @@ Introduction to DevOps,
 1. Principles of software testing,Introduction to STLC and V Model, Tools used for automation testing,Introduction to testing methods,Introduction to functional testing,
 1. Introduction to non-functional testing,Introduction to Selenium,Introduction to TestNG, TestNG annotations,HTML test result reporting,
 
-### Cloud
+### [Cloud](Cloud/README.md)
 1. Introduction to Cloud
 1. Introduction to Virtualization,Containerisation ,Cloud Computing, Cloud SPI Model, Cloud Computing Types, Cloud Security,
 1. Virtualization, Hardware Virtualization, Para-Virtualization, Cloning, Snapshot and Template,Containerization, Operating System Virtualization,
