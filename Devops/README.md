@@ -18,7 +18,7 @@
 ### Lab
 1.  Create micro-services
 
-## 3/4 [Containers](../conatiners)
+## 3/4 [Containers](../containers)
 1.  Introduction to containerisation
 1.  Introduction to docker
 1.  Creating docker images using Dockerfile
@@ -35,7 +35,7 @@
   * Start and stop container
   * Remove container and image
 
-## 5/6 [Orchestration](../conatiners/Orchestration.md)
+## 5/6 [Orchestration](../containers/Orchestration.md)
  Lecture
 1.  Introduction to YAML
 1.  Introduction to Docker Swarm and Docker Stack
