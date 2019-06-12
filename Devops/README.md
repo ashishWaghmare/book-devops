@@ -11,8 +11,8 @@
 1.  Microservice Architecture
 1.  Fragmentation of business requirement
 1.  Deployment pattern
-1.  API gateway
-1.  Service Discovery
+1.  [API gateway](../microservice/APIGateway.md)
+1.  [Service Discovery](../microservice/ServiceDiscovery.md)
 1.  Database Management for Microservices
 
 ### Lab
