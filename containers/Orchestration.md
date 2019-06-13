@@ -15,8 +15,12 @@ For example, your Java code needs both Spring Boot and Msql to run end to end se
 
 Docker Swarm provides native clustering functionality for Docker containers, which turns a group of Docker engines into a single virtual Docker engine.
 
-## Docker Stacko
+## Docker Stack
 
 Docker Stack combines both Compose and Swarm into One deployment instructions
 
 ## Kubernetes
+
+
+## Reference
+* https://media.licdn.com/dms/document/C511FAQEkCXjsFHn44w/feedshare-document-pdf-analyzed/0?e=1560538800&v=beta&t=ae8q2RkBJglvt0k7JJVHwh6FcrHDibBTkpBcS0rqf10
