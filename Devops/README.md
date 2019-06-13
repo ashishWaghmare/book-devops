@@ -39,7 +39,7 @@
  Lecture
 1.  Introduction to YAML
 1.  Introduction to Docker Swarm and Docker Stack
-1.  Introduction to Kubenetes
+1.  [Introduction to Kubenetes](../containers/Kubernetes.md)
 1.  Creating Kubernetes cluster
 1.  Creating service in Kubernetes
 1.  Deploying an application using dashboard
