@@ -1,4 +1,4 @@
-## Session 1
+## [Software Engineering](SE.md)
 1. Introduction to software engineering
 1. Importance of Software engineering
 1. Software Development Life Cycle
@@ -26,7 +26,7 @@
   1. Add Tasks and sub-tasks
   1. Create sprints with tasks
 
-## Session 5
+## [Agile Tools](Agile.md)
 1. Introduction to different tools used for agile web development
 1. Case study of developing web application using agile methodology
 
