@@ -6,3 +6,7 @@
 * __Abstraction__ – Mechanism by which implementation details are hidden from user.
 * __Encapsulation__ – Binding data together and protecting it from the outer world is referred to as encapsulation.
 * __Polymorphism__ – Mechanism by which functions or entities are able to exist in different forms.
+
+
+## Reference
+* http://gee.cs.oswego.edu/dl/oosdw3/index.html
