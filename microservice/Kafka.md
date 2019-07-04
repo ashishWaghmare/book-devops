@@ -1,7 +1,7 @@
 
 # Kafka
 
-## Topicss
+## Topics
 
 ## Partition
 Topics are split
