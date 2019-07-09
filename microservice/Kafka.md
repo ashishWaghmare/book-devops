@@ -3,6 +3,15 @@
 
 ## Broker
 1. Always a Number is id
+
+Does
+1. Recieve
+1. Assign Offsets 
+1. Commits message to disk
+Consumer
+1. Responds to fetch
+1. 
+
 ## Cluster
 1. Group of Broker is called cluster
 1. 
@@ -25,6 +34,14 @@ Which broker and partition to write to taken by Cluster
 1. all
 ## Consumer
 Consumer knows how to get data
+1. Client keeps track of Offset
+1. Offset stored in Topic
+1. One Consumer consumes one Partition of Topic
+
+## Consumer Group
+1. One or More Consumer
+1. Withing ConsumerGroup only one consumer talks to on partition
+
 
 
 ## Reference
