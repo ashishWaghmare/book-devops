@@ -13,7 +13,9 @@ deploy:
   kubectl:
     manifests:
       - deployment.yml
-
-
-    
+portForward:
+  - resourceType: deployment
+    resourceName: skp
+    port: 8080
+    localPort: 9000
 

@@ -18,7 +18,7 @@ spec:
         run: skp
     spec:
       containers:
-      - image: skp
+      - image: skp-latest
         name: skp
         resources: {}
 status: {}
