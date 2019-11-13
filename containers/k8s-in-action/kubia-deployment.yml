@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: kubia
+  name: kubia
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kubia
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: kubia
+    spec:
+      containers:
+      - image: kubia
+        name: kubia
+        resources: {}
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+

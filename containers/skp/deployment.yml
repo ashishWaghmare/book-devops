@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: skp
+  name: skp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: skp
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: skp
+    spec:
+      containers:
+      - image: skp
+        name: skp
+        resources: {}
+status: {}
